@@ -33,8 +33,6 @@ This is my professional portfolio website, built to showcase my experience, skil
 
 ## 📁 Project Structure
 
-## 📁 Project Structure
-
 ```
 portfolio/
 ├── app/                          # Next.js App Router
