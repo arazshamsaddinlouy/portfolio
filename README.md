@@ -32,3 +32,34 @@ This is my professional portfolio website, built to showcase my experience, skil
 - **Modern Styling**: Utility-first CSS with Tailwind for rapid development
 
 ## 📁 Project Structure
+
+portfolio/
+├── app/ # Next.js App Router
+│ ├── (components)/ # Shared components for the app
+│ │ ├── About.tsx # About section component
+│ │ ├── Contact.tsx # Contact section component
+│ │ ├── Experience.tsx # Experience timeline component
+│ │ ├── Footer.tsx # Footer component
+│ │ ├── Header.tsx # Navigation header component
+│ │ ├── Projects.tsx # Projects grid component
+│ │ └── Skills.tsx # Skills section component
+│ ├── fonts/ # Custom font files
+│ ├── layout.tsx # Root layout with metadata
+│ └── page.tsx # Main page component
+├── public/ # Static assets
+│ ├── images/ # Image assets
+│ │ └── sc.png # Portfolio screenshot
+│ └── favicon.ico # Browser favicon
+├── styles/ # Global styles
+│ └── globals.css # Global CSS with Tailwind directives
+├── types/ # TypeScript type definitions
+│ └── index.ts # Shared types and interfaces
+├── .gitignore # Git ignore file
+├── LICENSE # MIT License
+├── next-env.d.ts # Next.js TypeScript reference
+├── next.config.js # Next.js configuration
+├── package.json # Project dependencies and scripts
+├── postcss.config.js # PostCSS configuration for Tailwind
+├── README.md # Project documentation
+├── tailwind.config.js # Tailwind CSS configuration
+└── tsconfig.json # TypeScript configuration
