@@ -4,8 +4,7 @@ export const siteConfig = {
   title: "Senior Front-end Engineer",
 
   description:
-    "Senior Front-end Engineer with 13+ years of experience building scalable and high-performance web applications. Specialized in React, Angular, Next.js, and TypeScript, with a strong focus on frontend architecture, performance optimization, and delivering reliable user experiences.",
-
+    "Senior Front-end Engineer · 13+ years · React, Angular, Next.js, TypeScript",
   url: "https://arazshams.vercel.app",
 
   location: "Türkiye",

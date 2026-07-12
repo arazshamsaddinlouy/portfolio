@@ -9,7 +9,7 @@ export function Navigation() {
   const activeSection = useScrollSpy(sectionIds);
 
   return (
-    <nav className="mt-16 hidden lg:block">
+    <nav className="mt-4 hidden lg:block">
       <ul className="space-y-4">
         {navigation.map((item) => {
           const sectionId = item.href.replace("#", "");

@@ -24,7 +24,7 @@ export const projects: Project[] = [
     image: "/images/logo/TalaeiShow.svg",
     technologies: ["React", "TypeScript", "Vite", "Axios", "CSS"],
 
-    featured: true,
+    featured: false,
   },
 
   {
@@ -37,6 +37,6 @@ export const projects: Project[] = [
     image: "/images/logo/ErgoRaffle.png",
     technologies: ["React", "JavaScript", "SCSS", "REST API"],
 
-    featured: true,
+    featured: false,
   },
 ];

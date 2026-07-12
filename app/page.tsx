@@ -1,3 +1,8 @@
+"use client";
+
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Sidebar from "./components/layout/Sidebar";
 import About from "./components/sections/About";
 import Contact from "./components/sections/Contacts";
@@ -9,6 +14,27 @@ import Skills from "./components/sections/Skills";
 import ScrollProgress from "./components/ui/ScrollProgress";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      easing: "ease-out-cubic",
+      once: true,
+      offset: 50,
+      delay: 100,
+      disable: window.innerWidth < 768,
+    });
+
+    window.addEventListener("resize", () => {
+      AOS.refresh();
+    });
+
+    return () => {
+      window.removeEventListener("resize", () => {
+        AOS.refresh();
+      });
+    };
+  }, []);
+
   return (
     <div className="relative min-h-screen">
       <ScrollProgress />
@@ -40,7 +66,6 @@ export default function Home() {
             blur-[120px]
           "
         />
-
         <div
           className="
             absolute
@@ -76,22 +101,63 @@ export default function Home() {
               pb-[50vh]
               lg:w-1/2
               lg:py-24
-              lg:pb-[50vh]
+              lg:pb-[20vh]
             "
           >
-            <Hero />
+            {/* Hero - Fade up with longer duration */}
+            <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="0">
+              <Hero />
+            </div>
 
-            <About />
+            {/* About - Fade right */}
+            <div
+              data-aos="fade-right"
+              data-aos-duration="800"
+              data-aos-delay="100"
+            >
+              <About />
+            </div>
 
-            <Experience />
+            {/* Experience - Fade left */}
+            <div
+              data-aos="fade-left"
+              data-aos-duration="800"
+              data-aos-delay="200"
+            >
+              <Experience />
+            </div>
 
-            <Projects />
+            {/* Projects - Zoom in */}
+            <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="0">
+              <Projects />
+            </div>
 
-            <Skills />
+            {/* Skills - Fade up with shorter duration */}
+            <div
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="400"
+            >
+              <Skills />
+            </div>
 
-            <Education />
+            {/* Education - Fade up */}
+            <div
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="500"
+            >
+              <Education />
+            </div>
 
-            <Contact />
+            {/* Contact - Fade up with longer duration */}
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="600"
+            >
+              <Contact />
+            </div>
           </main>
         </div>
       </div>

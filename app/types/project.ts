@@ -1,9 +1,13 @@
 export interface Project {
   name: string;
   description: string;
+  image?: string; // Optional
+  url?: string; // Optional
+  github?: string; // Optional
   technologies: string[];
-  url?: string;
-  github?: string;
-  image?: string;
-  featured?: boolean;
+  featured?: boolean; // Optional
+}
+
+export interface ProjectCardProps {
+  project: Project;
 }
