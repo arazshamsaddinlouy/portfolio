@@ -11,6 +11,10 @@ This is my professional portfolio website, built to showcase my experience, skil
 
 **Live Demo**: [arazshams.vercel.app](https://arazshams.vercel.app)
 
+## 📸 Screenshot
+
+![Portfolio Screenshot](./public/sc.png)
+
 ## 🚀 Tech Stack
 
 - **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
@@ -28,6 +32,3 @@ This is my professional portfolio website, built to showcase my experience, skil
 - **Modern Styling**: Utility-first CSS with Tailwind for rapid development
 
 ## 📁 Project Structure
-
-## 📸 Screenshot
-![Portfolio Screenshot](./public/sc.png)
