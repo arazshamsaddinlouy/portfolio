@@ -10,7 +10,7 @@ export function SectionHeading({ title, subtitle, icon }: SectionHeadingProps) {
 
         <h2
           className="
-            text-2xl
+            text-3xl
             font-bold
             tracking-tight
             text-slate-100

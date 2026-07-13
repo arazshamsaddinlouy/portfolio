@@ -26,7 +26,7 @@ export default function Projects() {
         }}
       />
 
-      <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative max-w-5xl mx-auto">
         <SectionHeading
           title="Projects"
           icon={<FiFolder />}
@@ -111,19 +111,44 @@ function ProjectCard({ project, index }: ProjectCardProps) {
           {project.description}
         </p>
 
-        {/* Technologies */}
+        {/* Technologies - Badge Style */}
         <div className="mt-2 flex flex-wrap gap-1.5">
-          {project.technologies.slice(0, 4).map((tech: string) => (
+          {project.technologies.slice(0, 5).map((tech: string) => (
             <span
               key={tech}
-              className="text-xs text-slate-500 transition-colors group-hover:text-slate-400"
+              className="
+                rounded-full
+                border border-slate-700/40
+                bg-slate-800/30
+                px-2.5
+                py-0.5
+                text-xs
+                font-medium
+                text-slate-300
+                transition-all
+                duration-200
+                group-hover:border-teal-400/20
+                group-hover:bg-teal-400/5
+                group-hover:text-teal-300
+              "
             >
               {tech}
             </span>
           ))}
-          {project.technologies.length > 4 && (
-            <span className="text-xs text-slate-600">
-              +{project.technologies.length - 4}
+          {project.technologies.length > 5 && (
+            <span
+              className="
+                rounded-full
+                border border-slate-700/30
+                bg-slate-800/20
+                px-2.5
+                py-0.5
+                text-xs
+                font-medium
+                text-slate-500
+              "
+            >
+              +{project.technologies.length - 5}
             </span>
           )}
         </div>

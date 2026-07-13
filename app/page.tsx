@@ -16,11 +16,11 @@ import ScrollProgress from "./components/ui/ScrollProgress";
 export default function Home() {
   useEffect(() => {
     AOS.init({
-      duration: 800,
+      duration: 400, // Fast transition
       easing: "ease-out-cubic",
       once: true,
-      offset: 50,
-      delay: 100,
+      offset: 30,
+      delay: 0,
       disable: window.innerWidth < 768,
     });
 
@@ -104,58 +104,38 @@ export default function Home() {
               lg:pb-[20vh]
             "
           >
-            {/* Hero - Fade up with longer duration */}
-            <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="0">
+            {/* Hero - No animation to keep it instant */}
+            <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="0">
               <Hero />
             </div>
 
-            {/* About - Fade right */}
-            <div
-              data-aos="fade-right"
-              data-aos-duration="800"
-              data-aos-delay="100"
-            >
+            {/* About */}
+            <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="50">
               <About />
             </div>
 
-            {/* Experience - Fade left */}
-            <div
-              data-aos="fade-left"
-              data-aos-duration="800"
-              data-aos-delay="200"
-            >
+            {/* Experience */}
+            <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="50">
               <Experience />
             </div>
 
-            {/* Projects - Zoom in */}
-            <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="0">
+            {/* Projects */}
+            <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="50">
               <Projects />
             </div>
 
-            {/* Skills - Fade up with shorter duration */}
-            <div
-              data-aos="fade-up"
-              data-aos-duration="600"
-              data-aos-delay="400"
-            >
+            {/* Skills */}
+            <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="50">
               <Skills />
             </div>
 
-            {/* Education - Fade up */}
-            <div
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="500"
-            >
+            {/* Education */}
+            <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="50">
               <Education />
             </div>
 
-            {/* Contact - Fade up with longer duration */}
-            <div
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-delay="600"
-            >
+            {/* Contact */}
+            <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="50">
               <Contact />
             </div>
           </main>
