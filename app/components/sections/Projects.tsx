@@ -1,10 +1,5 @@
 import Image from "next/image";
-import {
-  FiExternalLink,
-  FiFolder,
-  FiGithub,
-  FiArrowRight,
-} from "react-icons/fi";
+import { FiExternalLink, FiFolder, FiGithub } from "react-icons/fi";
 import { projects } from "@/app/data/projects";
 import { SectionHeading } from "../ui/SectionHeading";
 import { Project } from "@/app/types/project";

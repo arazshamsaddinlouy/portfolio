@@ -12,6 +12,7 @@ import Hero from "./components/sections/Hero";
 import Projects from "./components/sections/Projects";
 import Skills from "./components/sections/Skills";
 import ScrollProgress from "./components/ui/ScrollProgress";
+import OpenSource from "./components/sections/OpenSoucePackages";
 
 export default function Home() {
   useEffect(() => {
@@ -122,6 +123,11 @@ export default function Home() {
             {/* Projects */}
             <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="50">
               <Projects />
+            </div>
+
+            {/* Open Source Projects */}
+            <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="50">
+              <OpenSource />
             </div>
 
             {/* Skills */}
