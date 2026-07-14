@@ -12,6 +12,10 @@ export const navigation = [
     href: "#projects",
   },
   {
+    name: "Open Source Projects",
+    href: "#opensource",
+  },
+  {
     name: "Skills",
     href: "#skills",
   },
