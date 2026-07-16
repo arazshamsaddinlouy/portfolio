@@ -10,7 +10,7 @@ export default function Experience() {
       <SectionHeading
         title="Experience"
         icon={<FiBriefcase />}
-        subtitle="13+ years of experience building scalable frontend applications, enterprise platforms, and modern digital products."
+        subtitle="11+ years of experience building scalable frontend applications, enterprise platforms, and modern digital products."
       />
 
       <div

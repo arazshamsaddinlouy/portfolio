@@ -51,7 +51,7 @@ export function Profile() {
           {siteConfig.title}
         </h2>
         <span className="rounded-full bg-teal-400/10 px-2 py-0.5 text-xs font-medium text-teal-300">
-          13+ yrs
+          11+ yrs
         </span>
       </div>
 
@@ -64,7 +64,7 @@ export function Profile() {
       <div className="max-w-xs">
         <div className="grid grid-cols-2 gap-3 pt-2">
           <div className="rounded-lg border border-slate-700/50 bg-slate-800/30 p-3 text-center backdrop-blur-sm">
-            <div className="text-sm font-medium text-teal-300">13+</div>
+            <div className="text-sm font-medium text-teal-300">11+</div>
             <div className="text-xs text-slate-400">Years Experience</div>
           </div>
           <div className="rounded-lg border border-slate-700/50 bg-slate-800/30 p-3 text-center backdrop-blur-sm">

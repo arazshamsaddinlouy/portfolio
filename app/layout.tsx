@@ -10,7 +10,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Araz Shamsaddinlouy | Senior Front-end Engineer",
   description:
-    "Senior Front-end Engineer with 13+ years of experience building scalable web applications using React, Angular, Next.js, TypeScript, and modern web technologies.",
+    "Senior Front-end Engineer with 11+ years of experience building scalable web applications using React, Angular, Next.js, TypeScript, and modern web technologies.",
   icons: {
     icon: "/favicon.ico",
   },

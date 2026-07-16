@@ -36,7 +36,7 @@ export default function Hero() {
           <FiCode className="h-4 w-4" />
           <span>Front-end Engineer</span>
           <span className="h-1 w-1 rounded-full bg-teal-400/40" />
-          <span className="text-slate-400">13+ years</span>
+          <span className="text-slate-400">11+ years</span>
         </div>
 
         {/* Main Heading - Removed gradients */}
