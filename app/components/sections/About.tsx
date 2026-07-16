@@ -16,7 +16,7 @@ export default function About() {
           <span className="font-medium text-slate-200">
             Senior Front-end Engineer
           </span>{" "}
-          with more than 13 years of experience developing enterprise
+          with more than 11 years of experience developing enterprise
           applications, fintech platforms, SaaS products, and large-scale web
           solutions. I enjoy transforming complex business requirements into
           intuitive, scalable, and maintainable user experiences.
