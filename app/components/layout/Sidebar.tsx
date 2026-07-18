@@ -1,6 +1,5 @@
 import { Navigation } from "./Navigation";
 import { Profile } from "./Profile";
-import { SocialLinks } from "./SocialLinks";
 
 export default function Sidebar() {
   return (
@@ -20,7 +19,6 @@ export default function Sidebar() {
       <div className="flex flex-col gap-6">
         <Profile />
         <Navigation />
-        <SocialLinks />
       </div>
     </aside>
   );

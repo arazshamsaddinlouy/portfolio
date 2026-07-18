@@ -11,6 +11,9 @@ export const skills: Skill[] = [
       "Angular",
       "NgRx",
       "RxJS",
+      "Vue",
+      "Nuxt",
+      "Pinia",
       "TypeScript",
       "JavaScript",
       "HTML5",
@@ -52,7 +55,15 @@ export const skills: Skill[] = [
 
   {
     category: "Cloud & Development Tools",
-    items: ["Azure", "CI/CD Pipelines", "GitHub Actions", "Git", "TFS"],
+    items: [
+      "Azure",
+      "CI/CD Pipelines",
+      "GitHub Actions",
+      "Git",
+      "TFS",
+      "Cursor",
+      "Claude",
+    ],
   },
 
   {

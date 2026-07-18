@@ -56,13 +56,15 @@ export default function Hero() {
         {/* Tech Stack - Minimal */}
         <div className="flex flex-wrap items-center gap-2 text-sm text-slate-400">
           <span className="font-medium text-slate-300">Tech Stack:</span>
-          {["React", "Angular", "Next.js", "TypeScript"].map((tech, index) => (
-            <span key={tech} className="flex items-center gap-2">
-              <span className="text-teal-400">✦</span>
-              <span className="text-slate-300">{tech}</span>
-              {index < 3 && <span className="text-slate-600">·</span>}
-            </span>
-          ))}
+          {["React", "Angular", "Next.js", "TypeScript", "Vue", "Nuxt.js"].map(
+            (tech, index) => (
+              <span key={tech} className="flex items-center gap-2">
+                <span className="text-teal-400">✦</span>
+                <span className="text-slate-300">{tech}</span>
+                {index < 3 && <span className="text-slate-600">·</span>}
+              </span>
+            ),
+          )}
         </div>
 
         {/* Tags - Clean, no gradient effects */}
@@ -73,6 +75,7 @@ export default function Hero() {
             "Scalable Architecture",
             "UI Systems",
             "Clean Code",
+            "AI-Native Development",
           ].map((item) => (
             <span
               key={item}

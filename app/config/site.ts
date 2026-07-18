@@ -14,5 +14,8 @@ export const siteConfig = {
   links: {
     linkedin: "https://linkedin.com/in/araz-shams",
     github: "https://github.com/arazshamsaddinlouy",
+    upwork: "https://upwork.com/freelancers/arazshamsaddinlouy",
+    stackoverflow:
+      "https://stackoverflow.com/users/4877606/araz-shamsaddinlouy",
   },
 };
