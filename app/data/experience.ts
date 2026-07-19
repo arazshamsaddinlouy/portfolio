@@ -63,7 +63,7 @@ export const experiences: Experience[] = [
 
   {
     company: "Pooya Co.",
-    role: "Senior Angular / React Developer",
+    role: "Senior Angular / React / Vue Developer",
     period: "Sep 2018 - Sep 2019",
     companyUrl: "",
     logo: "/images/logo/Pooya.jpeg",

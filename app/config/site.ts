@@ -4,7 +4,7 @@ export const siteConfig = {
   title: "Senior Front-end Engineer",
 
   description:
-    "Senior Front-end Engineer · 11+ years · React, Angular, Next.js, TypeScript",
+    "Senior Front-end Engineer · 11+ years · React/Next.js, Vue/Nuxt.js, Angular",
   url: "https://arazshams.vercel.app",
 
   location: "Türkiye",
