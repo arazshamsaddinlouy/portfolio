@@ -13,6 +13,7 @@ import Projects from "./components/sections/Projects";
 import Skills from "./components/sections/Skills";
 import ScrollProgress from "./components/ui/ScrollProgress";
 import OpenSource from "./components/sections/OpenSoucePackages";
+import Courses from "./components/sections/Courses";
 
 export default function Home() {
   useEffect(() => {
@@ -133,6 +134,11 @@ export default function Home() {
             {/* Skills */}
             <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="50">
               <Skills />
+            </div>
+
+            {/* Courses & Certifications */}
+            <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="50">
+              <Courses />
             </div>
 
             {/* Education */}

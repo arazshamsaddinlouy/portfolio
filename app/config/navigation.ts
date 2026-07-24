@@ -20,6 +20,10 @@ export const navigation = [
     href: "#skills",
   },
   {
+    name: "Courses",
+    href: "#courses",
+  },
+  {
     name: "Education",
     href: "#education",
   },
